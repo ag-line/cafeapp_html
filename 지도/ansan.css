@@ -1,0 +1,55 @@
+body{
+    background-color: rgb(82, 82, 82);
+    width: 60%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0;
+    color: rgb(231, 231, 231);
+}
+@font-face {
+    font-family: title;
+    src: url(Rock3D-Regular.ttf);
+}
+.title{
+    font-family: title;
+    font-weight: 600;
+    text-align: center;
+}
+span{text-emphasis: none;}
+h4,h3{
+    margin: 0;
+    background-color: rgba(187, 187, 187, 0.822);
+    display: inline;
+}
+@font-face {
+    font-family: shizu;
+    src: url(Shizuru-Regular.ttf);
+}
+#sangrokmap{
+    margin: 0; 
+    padding: 0;
+}
+#list{
+    margin: 0 5px;
+}
+#list> div{
+    margin-top: 8px;
+    font-family: shizu;
+}
+#container1{
+    padding: 2px;
+    margin-top: 3px;
+    border: 2px dashed rgb(214, 214, 214);
+    display: grid;
+    width: 100%;
+    height: 300px; 
+    display: flex;
+    flex-wrap: wrap;        
+    overflow: visible;
+    padding: 5px;
+}
+
+#container1>div{
+    flex: 2 1 40%;
+    flex-direction: column
+}

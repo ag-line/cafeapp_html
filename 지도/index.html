@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="menu">
+        <h1>Healing Menu</h1>
+        <hr style="height: 5px; background-color: gray;">
+        <div id="container">
+            <div id="cafe" style="width: 45%;">
+                <h3>CAFE</h3>
+                <ul>
+                    <li class="option-list"><a>서울</a></li>
+                        <ul id="datailes">
+                            <li class="option"><a href="">강남/서초</a></li>
+                            <li class="option"><a href="">강동/송파</a></li>
+                            <li class="option"><a href="">광진/성동</a></li>
+                            <li class="option"><a href="">노원/동대문/중랑</a></li>
+                            <li class="option"><a href="">강북/도봉/성북</a></li>
+                            <li class="option"><a href="">용산/종로/중구</a></li>
+                            <li class="option"><a href="">마포/서대문/은평</a></li>
+                            <li class="option"><a href="">강서/양천/영등포</a></li>
+                            <li class="option"> <a href="">구로/금천/관악/동작</a></li>
+                        </ul>
+                    <li class="option-list"><a>경기</a></li>
+                        <ul id="datailes2">
+                            <li class="option"><a href="ansan.html">군포/안산/의왕</a></li>
+                            <li class="option">안양/평촌/과천</li>
+                            <li class="option">광명/시흥/부천</li>
+                            <li class="option">수원/용인/화성</li>
+                            <li class="option">광주/수서/성남/하남</li>
+                            <li class="option">김포/일산/파주</li>
+                            <li class="option">구리/의정부/남양주</li>
+                        </ul>
+                    <li><a href="">인천</a></li>
+                    <li><a href="">강원</a></li>
+                    <li><a href="">대전</a></li>
+                    <li><a href="">전남</a></li>
+                    <li><a href="">부산</a></li>
+                    <li><a href="">제주</a></li>
+                </ul>
+            </div>
+            <div id="trip" style="width: 45%;">
+                <h3>SPOT</h3>
+            </div>
+        </div>
+    </div>
+    <script>
+        function onClickSelect(e){
+            const click = e.currentTaget.className.indexOf("")
+        }
+        document.querySelector(".option-list").addEventListener("click", onClickSelect);
+    </script>
+</body>
+</html>

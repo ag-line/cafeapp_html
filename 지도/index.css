@@ -1,0 +1,28 @@
+@font-face {
+    font-family: rock3D;
+    src: url("Rock3D-Regular.ttf");
+}
+@font-face {
+    font-family: shizuru;
+    src: url("Shizuru-Regular.ttf");
+}
+a{
+    text-decoration: none;
+}
+h1{
+    text-align: center;
+    font-family: rock3D;
+}
+h3{
+    font-family: shizuru;
+    font-weight: 600;
+    text-align: center;
+}
+#menu{
+    width: 60%;
+    margin: auto;
+}
+#container{
+    display: flex;
+    justify-content: space-around;
+}
