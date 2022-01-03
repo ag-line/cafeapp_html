@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0">
     <link rel="stylesheet" href="index.css">
-    <title>Document</title>
+    <title>Menu</title>
 </head>
 <body>
     <div id="menu">
@@ -14,47 +14,54 @@
         <div id="container">
             <div id="cafe" style="width: 45%;">
                 <h3>CAFE</h3>
-                <ul>
-                    <li class="option-list"><a>서울</a></li>
-                        <ul id="datailes">
-                            <li class="option"><a href="">강남/서초</a></li>
-                            <li class="option"><a href="">강동/송파</a></li>
-                            <li class="option"><a href="">광진/성동</a></li>
-                            <li class="option"><a href="">노원/동대문/중랑</a></li>
-                            <li class="option"><a href="">강북/도봉/성북</a></li>
-                            <li class="option"><a href="">용산/종로/중구</a></li>
-                            <li class="option"><a href="">마포/서대문/은평</a></li>
-                            <li class="option"><a href="">강서/양천/영등포</a></li>
-                            <li class="option"> <a href="">구로/금천/관악/동작</a></li>
-                        </ul>
-                    <li class="option-list"><a>경기</a></li>
-                        <ul id="datailes2">
-                            <li class="option"><a href="ansan.html">군포/안산/의왕</a></li>
-                            <li class="option">안양/평촌/과천</li>
-                            <li class="option">광명/시흥/부천</li>
-                            <li class="option">수원/용인/화성</li>
-                            <li class="option">광주/수서/성남/하남</li>
-                            <li class="option">김포/일산/파주</li>
-                            <li class="option">구리/의정부/남양주</li>
-                        </ul>
-                    <li><a href="">인천</a></li>
-                    <li><a href="">강원</a></li>
-                    <li><a href="">대전</a></li>
-                    <li><a href="">전남</a></li>
-                    <li><a href="">부산</a></li>
-                    <li><a href="">제주</a></li>
-                </ul>
+                <div class="dropdown">
+                    <button class="dropbtn">서울</button>
+                        <div class="dropdown-content">
+                          <a href="#">강남/서초</a>
+                          <a href="#">강동/송파/성수</a>
+                          <a href="#">노원/동대문/중랑</a>
+                          <a href="#">강북/도봉/성북</a>
+                          <a href="#">용산/종로/중구</a>
+                          <a href="#">마포/서대문/은평</a>
+                          <a href="#">강서/양천/영등포</a>
+                          <a href="#">구로/금천/관악/동작</a>
+                        </div>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn">경기</button>
+                        <div class="dropdown-content">
+                          <a href="ansan.html">군포/안산/의왕</a>
+                          <a href="#">안양/평촌/과천</a>
+                          <a href="#">광명/시흥/부천</a>
+                          <a href="#">수원/용인/화성</a>
+                          <a href="#">광주/수서/성남/하남</a>
+                          <a href="#">김포/일산/파주</a>
+                          <a href="#">구리/의정부/남양주</a>
+                        </div>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn">인천</button>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn">강원도</button>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn">충청도</button>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn">전라도</button>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn">경상도</button>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn">제주도</button>
+                </div>
             </div>
-            <div id="trip" style="width: 45%;">
+            <div id="spot" style="width: 45%;">
                 <h3>SPOT</h3>
             </div>
         </div>
     </div>
-    <script>
-        function onClickSelect(e){
-            const click = e.currentTaget.className.indexOf("")
-        }
-        document.querySelector(".option-list").addEventListener("click", onClickSelect);
-    </script>
 </body>
 </html>
