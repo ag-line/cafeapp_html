@@ -24,22 +24,37 @@ h3 {
   width: 80%;
   height: 100%;
   margin: auto;
-  min-width: 360px;
+  min-width: none;
 }
-#ansan_map {
+#wrap{
+  display: flex;
+  justify-content: space-around;
+}
+#list{
+  /*float: left;*/
+  width: 30%;
+  height: 420px;
+  border: 1px solid gainsboro;
+  overflow: scroll;
+}
+#img > a{
+  vertical-align: 45px;
+  margin-left: 8px;
+}
+#listitem{
+  margin-bottom: 10px;
+  width: 100%;
+  display: block;
+  float: left;
+  border-bottom: 1px solid rgb(80, 80, 80);
+  
+}
+#map {
   border: 2px solid rgb(156, 156, 156);
   border-radius: 5px;
   margin: 0 auto;
-  height: 300px;
-  width: 90%;
-}
-#bucheon_map, #siheung_map{
-  display: none;
-  border: 2px solid rgb(156, 156, 156);
-  border-radius: 5px;
-  margin: 0 auto;
-  height: 300px;
-  width: 90%;
+  height: 420px;
+  width: 70%;
 }
 #menu {
   margin: auto;
@@ -61,4 +76,13 @@ button {
   width: 20%;
   height: 40px;
   font-weight: 700;
+}
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  #back, #list, #map, #menu, #container, #wrap{
+    width: 100%;
+  }
+  #wrap{
+    display: block;
+  }
 }
