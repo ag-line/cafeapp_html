@@ -2,7 +2,7 @@
 body {
   width: 100%;
   margin: auto;
-  background-color: rgb(190, 190, 190);
+  background-color: #aa9e93;
 }
 h3 {
   text-align: center;
@@ -19,6 +19,7 @@ h3 {
   float: left;
   width: 40px;
   color: whitesmoke;
+  margin-left: 10px;
 }
 #container {
   width: 80%;
@@ -32,29 +33,34 @@ h3 {
 }
 #list{
   /*float: left;*/
-  width: 30%;
+  width: 40%;
   height: 420px;
   border: 1px solid gainsboro;
   overflow: scroll;
-}
-#img > a{
-  vertical-align: 45px;
-  margin-left: 8px;
-}
-#listitem{
-  margin-bottom: 10px;
-  width: 100%;
-  display: block;
-  float: left;
-  border-bottom: 1px solid rgb(80, 80, 80);
-  
 }
 #map {
   border: 2px solid rgb(156, 156, 156);
   border-radius: 5px;
   margin: 0 auto;
   height: 420px;
-  width: 70%;
+  width: 60%;
+}
+#info{
+  display: flex;
+  padding: 3px;
+}
+#text{
+  margin: 10px;
+  margin-bottom: 0;
+}
+#text > a{
+  text-decoration: none;
+}
+#listitem{
+  width: 100%;
+  display: block;
+  float: left;
+  border-bottom: 1px solid rgb(80, 80, 80);
 }
 #menu {
   margin: auto;
@@ -79,10 +85,16 @@ button {
 }
 @media only screen and (max-width:500px) {
   /* For mobile phones: */
-  #back, #list, #map, #menu, #container, #wrap{
+  #back, #list, #menu, #container, #wrap{
     width: 100%;
+  }
+  #map{
+    margin-top: 5px;
+    width: 90%;
+    height: 300px;
   }
   #wrap{
     display: block;
+    margin-bottom: 100px;
   }
 }

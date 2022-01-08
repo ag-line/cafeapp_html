@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="all.css" />
+  </head>
+  <body>
+    <div id="back"><a href="index.html">back</a></div>
+    <h3>CAFE</h3>
+    <div id="container" style="overflow: auto">
+      <div id="menu">
+        <button id="jangseong"><a href="#">장성</a></button>
+        <button id="jengueop"><a href="#">정읍</a></button>
+        <button id="damyang"><a href="#">담양</a></button>
+      </div>
+      <div id="wrap">
+        <div id="list">
+          <div id="listitem">
+            <div id="info">
+              <img
+                style="width: 90px; height: 90px"
+                src="https://ifh.cc/g/4aHUaD.jpg"
+              />
+              <div id="text" style="height: 80px;">
+                <a>kafe52 picnic<a><br>
+                <img src="https://cdn-icons-png.flaticon.com/512/733/733558.png" style="width: 18px; height: 18px; vertical-align: text-bottom;">
+                <a href="https://www.instagram.com/explore/locations/214939717206458/52picnic/?hl=ko">Instagram </a>
+                <br><a style="font-size: smaller;">#애견동반 #물멍 #피크닉</a>
+              </div>
+            </div>
+          </div>
+          <div id="listitem">
+            <div id="info">
+              <img
+                style="width: 90px; height: 90px"
+                src=""
+              />
+              <div id="text" style="height: 80px;">
+                <a> <a><br>
+                <img src="https://cdn-icons-png.flaticon.com/512/733/733558.png" style="width: 18px; height: 18px; vertical-align: text-bottom;">
+                <a href="">Instagram </a>
+              </div>
+            </div>
+          </div>
+          <div id="listitem">
+            <div id="info">
+              <img
+                style="width: 90px; height: 90px"
+                src="https://search.pstatic.net/common/?autoRotate=true&quality=95&type=w750&src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMTEyMTNfMTAw%2FMDAxNjM5MzU4Mzk2Mjcw.X0BwIAxxhx2BBKYRO2Pluk-ko1fJuCdjBWH3c9amZhIg.ystQqBoGLgPBNC2lxOz0UOzknV1r-CxHwhLRUqk4Yrwg.JPEG.dms3343%2FIMG_3240.jpg"
+              />
+              <div id="text" style="height: 80px;">
+                <a>섬 온도<a><br>
+                <img src="https://cdn-icons-png.flaticon.com/512/733/733558.png" style="width: 18px; height: 18px; vertical-align: text-bottom;">
+                <a href="https://www.instagram.com/explore/tags/%EC%9E%A5%EC%84%B1%EC%98%A8%EB%8F%84/?hl=ko">Instagram </a>
+              </div>
+            </div>
+          </div>
+          <div id="listitem">
+            <div id="info">
+              <img
+                style="width: 90px; height: 90px"
+                src="https://ifh.cc/g/ILlyYj.jpg"
+              />
+              <div id="text" style="height: 80px;">
+                <a>카페 허브원<a><br>
+                <img src="https://cdn-icons-png.flaticon.com/512/733/733558.png" style="width: 18px; height: 18px; vertical-align: text-bottom;">
+                <a href="https://www.instagram.com/explore/locations/111372437283642/?hl=ko">Instagram </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="map"></div>
+      </div>
+    </div>
+    <script
+      type="text/javascript"
+      src="//dapi.kakao.com/v2/maps/sdk.js?appkey=f5c0d2dacdec8f344abc947a67ab1811"
+    ></script>
+    <script type="text/javascript" src="jangseong.js"></script>
+
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.js"
+      integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      $(document).ready(function () {
+        $("#gangnam").click(function () {
+          $("#gangnam_list").show();
+          $("#sinsa_list").hide();
+          $("#sadang_list").hide();
+        });
+        $("#sinsa").click(function () {
+          $("#sinsa_list").show();
+          $("#gangnam_list").hide();
+          $("#sadang_list").hide();
+        });
+        $("#sadang").click(function () {
+          $("#sadang_list").show();
+          $("#sinsa_list").hide();
+          $("#gangnam_list").hide();
+        });
+      });
+    </script>
+  </body>
+</html>

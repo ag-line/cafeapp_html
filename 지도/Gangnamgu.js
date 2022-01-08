@@ -19,10 +19,30 @@ var positions = [
     text: "R'cafe",
     latlng: new kakao.maps.LatLng(37.526354890147324, 127.0394601823441),
   },
+  {
+    text: "Immute",
+    latlng: new kakao.maps.LatLng(37.522162910877434, 127.02520192837459),
+  },
+  {
+    text: "엔트런스",
+    latlng: new kakao.maps.LatLng(37.49260336988805, 127.01899348234302),
+  },
+  {
+    text: "펠트커피",
+    latlng: new kakao.maps.LatLng(37.52583339157487, 127.03540308234405),
+  },
+  {
+    text: "비지엠커피",
+    latlng: new kakao.maps.LatLng(37.47714098235475, 126.98548789583496),
+  },
+  /*{
+    text: "",
+    latlng: new kakao.maps.LatLng(),
+  },*/
 ];
 var mapContainer = document.getElementById("map"), // 지도를 표시할 div
   mapOption = {
-    center: new kakao.maps.LatLng(37.50063779607012, 127.03625854522855), // 지도의 중심좌표
+    center: new kakao.maps.LatLng(37.5045171438584, 127.02476262555113), // 지도의 중심좌표
     level: 7, // 지도의 확대 레벨
   };
 // 지도를 표시할 div와  지도 옵션으로  지도를 생성
