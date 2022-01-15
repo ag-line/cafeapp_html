@@ -1,15 +1,15 @@
 var positions = [
-  {/*정읍*/
-    text: "카페 허브원",
-    latlng: new kakao.maps.LatLng(35.564782452473445, 126.89387076389797),
+  {
+    text: "월하당",
+    latlng: new kakao.maps.LatLng(34.982769311878926, 126.73069373994029),
   },
-  { /*장성*/
-    text: "섬 온도",
-    latlng: new kakao.maps.LatLng(35.29459954033895, 126.7702609990623),
+  {
+    text: "카페밀",
+    latlng: new kakao.maps.LatLng(35.30848987804868, 126.92621089367034),
   },
-  { /*장성*/
-    text: "kafe52",
-    latlng: new kakao.maps.LatLng(35.24361748748135, 126.67617606693248),
+  {
+    text: "별하당",
+    latlng: new kakao.maps.LatLng(),
   },
   {
     text: "",
@@ -22,7 +22,7 @@ var positions = [
 ];
 var mapContainer = document.getElementById("map"), // 지도를 표시할 div
   mapOption = {
-    center: new kakao.maps.LatLng(35.45172863844531, 126.81692614171557), // 지도의 중심좌표
+    center: new kakao.maps.LatLng(34.83842027920683, 126.709167741707669), // 지도의 중심좌표
     level: 10, // 지도의 확대 레벨
   };
 // 지도를 표시할 div와  지도 옵션으로  지도를 생성
@@ -39,4 +39,4 @@ for (var i = 0; i < positions.length; i++) {
 
 // 지도 확대 축소를 제어할 수 있는  줌 컨트롤을 생성
 var zoomControl = new kakao.maps.ZoomControl();
-map.addControl(zoomControl, kakao.maps.ControlPosition.BOTTOMRIGHT);
+map.addControl(zoomControl, kakao.maps.ControlPosition.TOPRIGHT);

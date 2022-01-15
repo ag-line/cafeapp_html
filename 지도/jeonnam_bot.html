@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="all.css" />
+  </head>
+  <body>
+    <div id="back"><a href="index.html">back</a></div>
+    <h3>CAFE</h3>
+    <div id="container" style="overflow: auto">
+      <div id="menu">
+        <button id="naju"><a href="#">나주</a></button>
+        <button id="jang"><a href="#">장흥</a></button>
+        <button id="young"><a href="#">영암</a></button>
+        <button id="dam"><a href="#">담양</a></button>
+      </div>
+      <h6 style="margin-bottom: 5px; margin-top: 0; text-align: center;">위 버튼 클릭시 해당 지역의 목록이 보입니다.</h6>
+      <div id="wrap">
+        <div id="list">
+          <div id="listitem" class="naju">
+            <div id="info">
+              <img
+                style="width: 90px; height: 90px"
+                src="https://search.pstatic.net/common/?autoRotate=true&quality=95&type=w750&src=https%3A%2F%2Fmyplace-phinf.pstatic.net%2F20220106_203%2F1641434101057x2W1T_JPEG%2Fupload_38c1060c3774ce7df2db8f9e3dd7feeb.jpg"
+              />
+              <div id="text" style="height: 80px;">
+                <a>월하당<a><br>
+                <img src="https://cdn-icons-png.flaticon.com/512/733/733558.png" style="width: 18px; height: 18px; vertical-align: text-bottom;">
+                <a href="">Instagram </a> off-Mon
+                <br><a style="font-size: smaller;">#대형카페 </a>
+              </div>
+            </div>
+          </div>
+          <div id="listitem" class="dam">
+            <div id="info">
+              <img
+                style="width: 90px; height: 90px"
+                src="https://search.pstatic.net/common/?autoRotate=true&quality=95&type=w750&src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMTA3MTFfMTcg%2FMDAxNjI1OTI5NDA1Mjg0.UR7xm9h8c98VATkJdTaDbcBMd3tkxPCSNaq7LhDbtEkg.BXgMkqULuFzqPe45ijr8KqpS62yCt8nAMGE-6Mc6pBUg.JPEG.pjky955%2F%25C4%25AB%25C6%25E4%25B9%25D0.jpg"
+              />
+              <div id="text" style="height: 80px;">
+                <a>카페밀</a><br>
+                <img src="https://cdn-icons-png.flaticon.com/512/733/733558.png" style="width: 18px; height: 18px; vertical-align: text-bottom;">
+                <a href="https://www.instagram.com/explore/tags/%EC%B9%B4%ED%8E%98%EB%B0%80/?hl=ko">Instagram </a>
+                <br><a style="font-size: smaller;">#주차가능 #대형카페</a>
+              </div>
+            </div>
+          </div>
+          <div id="listitem" class="dam"> 
+            <div id="info">
+              <img
+                style="width: 90px; height: 90px"
+                src="https://search.pstatic.net/common/?autoRotate=true&quality=95&type=w750&src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMTA4MjRfMjE5%2FMDAxNjI5ODA5MzA4NjYx.8QxFhlrBILUWWNogfdetX8AEf2QJAXyV89Ak4xxJQXkg._3jnvx0APSTvFvTs2w3U8aSVIZWqLjxRM20ppVzMfMIg.JPEG.kimsuin2124%2FIMG_7215.JPG"
+              />
+              <div id="text" style="height: 80px;">
+                <a>별하당</a><br>
+                <img src="https://cdn-icons-png.flaticon.com/512/733/733558.png" style="width: 18px; height: 18px; vertical-align: text-bottom;">
+                <a href="https://www.instagram.com/explore/tags/%EB%B3%84%ED%95%98%EB%8B%B9/">Instagram </a> off-Mon
+                <br><a style="font-size: smaller;">#휴양지갬성 #카스텔라맛집</a>
+              </div>
+            </div>
+          </div>
+          <div id="listitem" class="young">
+            <div id="info">
+              <img
+                style="width: 90px; height: 90px"
+                src=""
+              />
+              <div id="text" style="height: 80px;">
+                <a> <a><br>
+                <img src="https://cdn-icons-png.flaticon.com/512/733/733558.png" style="width: 18px; height: 18px; vertical-align: text-bottom;">
+                <a href="">Instagram </a>
+              </div>
+            </div>
+          </div>
+          <div id="listitem" class="jang">
+            <div id="info">
+              <img
+                style="width: 90px; height: 90px"
+                src=""
+              />
+              <div id="text" style="height: 80px;">
+                <a> <a><br>
+                <img src="https://cdn-icons-png.flaticon.com/512/733/733558.png" style="width: 18px; height: 18px; vertical-align: text-bottom;">
+                <a href="">Instagram </a>
+              </div>
+            </div>
+          </div>
+          <div id="listitem">
+            <div id="info">
+              <img
+                style="width: 90px; height: 90px"
+                src=""
+              />
+              <div id="text" style="height: 80px;">
+                <a> <a><br>
+                <img src="https://cdn-icons-png.flaticon.com/512/733/733558.png" style="width: 18px; height: 18px; vertical-align: text-bottom;">
+                <a href="">Instagram </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="map" style="height: 450px;" ></div>
+      </div>
+    </div>
+    <script
+      type="text/javascript"
+      src="//dapi.kakao.com/v2/maps/sdk.js?appkey=f5c0d2dacdec8f344abc947a67ab1811"
+    ></script>
+    <script type="text/javascript" src="jeonnam_bot.js"></script>
+
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.js"
+      integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      $(document).ready(function () {
+        $("#naju").click(function () {
+          $(".naju").show();
+          $(".jang").hide();
+          $(".young").hide();
+        });
+        $("#jang").click(function () {
+          $(".jangheung").show();
+          $(".naju").hide();
+          $(".young").hide();
+        });
+        $("#young").click(function () {
+          $(".young").show();
+          $(".naju").hide();
+          $(".jang").hide();
+        });
+      });
+    </script>
+  </body>
+</html>
