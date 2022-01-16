@@ -36,6 +36,46 @@ var positions = [
     latlng: new kakao.maps.LatLng(34.947276858922486, 127.49803536877519),
   },
   {
+    text: "휴가저택",
+    latlng: new kakao.maps.LatLng(34.943700483152426, 127.75748569575981),
+  },
+  {
+    text: "마애",
+    latlng: new kakao.maps.LatLng(34.70119832481881, 127.63040668018868),
+  },
+  {
+    text: "카페로와",
+    latlng: new kakao.maps.LatLng(34.90542144546363, 127.34362682644576),
+  },
+  {
+    text: "브루웍스",
+    latlng: new kakao.maps.LatLng(34.94756660473576, 127.49860271110346),
+  },
+  {
+    text: "고데레",
+    latlng: new kakao.maps.LatLng(34.95184034237894, 127.4888899552831),
+  },
+  {
+    text: "동재",
+    latlng: new kakao.maps.LatLng(34.954715876495534, 127.48284736692423),
+  },
+  {
+    text: "카페이든",
+    latlng: new kakao.maps.LatLng(34.93316738218364, 127.69908494179012),
+  },
+  {
+    text: "장명로3",
+    latlng: new kakao.maps.LatLng(34.951417443377025, 127.48433862453972),
+  },
+  {
+    text: "카페오월",
+    latlng: new kakao.maps.LatLng(34.95728020216356, 127.69647833808833),
+  },
+  {
+    text: "테이크",
+    latlng: new kakao.maps.LatLng(34.93645010067783, 127.70975322371766),
+  },
+  {
     text: "",
     latlng: new kakao.maps.LatLng(),
   },

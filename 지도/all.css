@@ -1,21 +1,22 @@
-@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?&family=Gaegu:wght@300&family=The+Nautigal:wght@700&display=swap");
 body {
   width: 100%;
   margin: auto;
-  background-color: #aa9e93;
+  background-color: #dadada;
+  font-family: "Gaegu", cursive;
 }
 h3 {
   text-align: center;
   font-size: XX-large;
-  font-family: "Dancing Script", cursive;
   margin: 15px auto;
+  font-family: cursive;
 }
-#back{
+#back {
   height: 30px;
   width: 80%;
   margin: 10px auto;
 }
-#back > a{
+#back > a {
   float: left;
   width: 40px;
   color: whitesmoke;
@@ -27,12 +28,11 @@ h3 {
   margin: auto;
   min-width: none;
 }
-#wrap{
+#wrap {
   display: flex;
   justify-content: space-around;
 }
-#list{
-  /*float: left;*/
+#list {
   width: 40%;
   height: 420px;
   border: 1px solid gainsboro;
@@ -45,18 +45,18 @@ h3 {
   height: 420px;
   width: 60%;
 }
-#info{
+#info {
   display: flex;
   padding: 3px;
 }
-#text{
+#text {
   margin: 10px;
   margin-bottom: 0;
 }
-#text > a{
+#text > a {
   text-decoration: none;
 }
-#listitem{
+#listitem {
   width: 100%;
   display: block;
   float: left;
@@ -73,6 +73,7 @@ button > a {
   padding: 5px;
   text-decoration: none;
   color: whitesmoke;
+  font-family: "Gaegu", cursive;
 }
 button {
   background-color: rgb(104, 104, 104);
@@ -81,20 +82,33 @@ button {
   border-radius: 5px;
   width: 20%;
   height: 40px;
-  font-weight: 700;
+  font-weight: 500;
+  font-size: 17px;
 }
-@media only screen and (max-width:500px) {
+
+@media only screen and (max-width: 500px) {
   /* For mobile phones: */
-  #back, #list, #menu, #container, #wrap{
+  #back,
+  #list,
+  #menu,
+  #container,
+  #wrap {
     width: 100%;
   }
-  #map{
+  #map {
     margin-top: 5px;
     width: 90%;
     height: 300px;
   }
-  #wrap{
+  #wrap {
     display: block;
     margin-bottom: 100px;
+  }
+}
+
+@media only screen and (max-width: 300px) {
+  /* For galaxy Fold phones: */
+  button > a {
+    font-size: xx-small;
   }
 }
