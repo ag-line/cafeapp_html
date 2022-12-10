@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>2023년 버킷리스트</title>
+  </head>
+  <link
+    rel="stylesheet"
+    type="text/css"
+    href="https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/bucketList/sparta-bucket2.css"
+  />
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=Hi+Melody&display=swap");
+    * {
+      font-family: "Hi Melody", cursive;
+    }
+    .bg {
+      margin: auto auto;
+      text-align: center;
+      width: 360px;
+      background-image: url("https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/bucketList/bg-grid.png");
+      background-size: cover;
+      background-position: center;
+    }
+    .msg {
+      font-weight: bold;
+      font-size: 20px;
+      margin: -5px 0 15px;
+    }
+    .title {
+      color: whitesmoke;
+      background-color: tomato;
+      font-size: 24px;
+      margin: auto;
+      padding: 8px 16px;
+      border-radius: 8px;
+      box-sizing: border-box;
+      width: fit-content;
+    }
+    .row {
+      display: inline-flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+    }
+    .bucket {
+      vertical-align: middle;
+      width: 160px;
+      height: 160px;
+      text-align: center;
+      margin: 10px;
+      flex: auto;
+      cursor: pointer;
+    }
+    .img1 {
+      background-image: url("https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/bucketList/bucket-red.png");
+      background-size: cover;
+      background-position: center;
+    }
+    .img2 {
+      background-image: url("https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/bucketList/bucket-lightred.png");
+      background-size: cover;
+      background-position: center;
+    }
+    .bucket {
+      transition: all 0.2s linear;
+    }
+    .bucket:hover {
+      transform: scale(1.2);
+    }
+  </style>
+
+  <body class="bg-t4 center">
+    <h1 class="title-t4">2023년 신년계획</h1>
+    <p class="msg-t4">I can do it</p>
+    <div class="row">
+      <div class="bucket img2-t2 center done">버킷리스트 만들기</div>
+      <div class="bucket img3-t4 center">이력서 작성</div>
+      <div class="bucket img2-t3 center">취뽀</div>
+      <div class="bucket img2-t5 center">codingTest</div>
+      <div class="bucket img1-t5 center">React</div>
+      <div class="bucket img2 center">운동</div>
+    </div>
+  </body>
+</html>
